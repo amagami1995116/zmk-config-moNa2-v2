@@ -94,6 +94,7 @@
     /* #include <dt-bindings/zmk/runtime_input_processor.h> 必要 */
     /* axis-snap-mode = <2>; */
     /* axis-snap-threshold = <100>; */
+    y-invert;  /* スクロール時だけY軸反転 */
 };
 
 /* マウス用は全レイヤーで有効 (active-layers = 0 がデフォルト) */
